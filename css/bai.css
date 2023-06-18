@@ -1,0 +1,23 @@
+#BAIDU_SSP__wrapper_u3111841_0 {
+	position: absolute;
+    left: 50%;
+    bottom: 0;
+    z-index: 2;
+    margin-left: -480px;
+}
+
+#BAIDU_SSP__wrapper_u3111938_0 {
+	background-color: #fff!important;
+	display: none!important;
+}
+
+@media screen and (max-width: 770px) {
+	#BAIDU_SSP__wrapper_u3111841_0 {
+		display: none!important;
+	}
+	#BAIDU_SSP__wrapper_u3111938_0 {
+		background-color: #fff!important;
+		display: block!important;
+	}
+
+}

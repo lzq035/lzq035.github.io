@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>再来一次</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        *{
+            font-size:60px;
+            color: red;
+        }
+        button {
+                background-color:bisque;
+                border-radius: 6px;
+        }
+    </style>
+    <script>
+        alert('黄小宝呀~');
+        function pow(){
+            alert('哼，我不开心~');
+            while(true){
+                alert('关掉这个页面吧,里面隐藏的内容只有你给才能看见，抱歉了！');
+            }
+        }
+        function S(){
+            W=prompt('真的不给吗？再想想嘛,小宝。（给请输入1，不给请输入2）');
+            switch(W){
+            case '1':alert('哇哦！我真的很开心~');break;
+            case '2':pow();break;
+            default:alert('你的输入有误，请重新输入！！！');
+                    S();
+        }
+        }
+        function A(){
+        B=prompt('如果重新再来一次，你还是会选择不给我安装吗？(给请输入1，不给请输入2)');
+        switch(B){
+            case '1':alert('哇哦！就知道小宝相信我~');break;
+            case '2':S();break;
+            default:alert('你的输入有误，请重新输入！！！');
+                    A();
+        }
+        }
+        A();
+
+        function qq(){
+            alert("关闭该页面前，我想说————永远爱你！");
+        }
+    </script>
+    
+</head>
+<body onunload="qq()">
+    <p style="color:aqua;   font-family: Arial, Helvetica, sans-serif;">你能看到这个页面，说明我还是很幸运的</p>
+    <button type="button" onclick="ass()">点我点我！！！
+ <script>
+     function ass(){
+    //     for (var y = 1.5; y > -1.5; y -= 0.1) {
+    //     for (var x = -1.5; x < 1.5; x += 0.05) {
+    //         var a = x * x + y * y - 1;
+    //         if(a * a * a - x * x * y * y * y <= 0.0)
+    //         document.write('*');
+    //         else
+    //         document.write('&nbsp;');
+    //     }
+    //     document.write('<br/>');
+    // }
+    // document.write('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;希望我们长长久久!<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;凌浙权');
+     location.replace('./love.html')
+     }
+ </script>
+ 
+</body>
+</html>
